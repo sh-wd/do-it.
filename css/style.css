@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Fredoka+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.collapse {
+  background-color: red;
+  color: white;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+button {
+  background-color: white;
+  color: blue;
+  border: none;
+}
+
+.navbar {
+  background-color: yellow;
+  color: green;
+  font-family: 'Fredoka One', cursive !important;  
+}
+
+h1 > img {
+  height: 2rem;
+  width: 2rem;
+}
+
+h1 > span {
+  color: red;
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive !important;  
+}
+
+h2 > img {
+  height: 1rem;
+  width: 1rem;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+  color: blue;
+  font-size: 2rem !important;
+}
+
+.now {
+  background-color: green;
+}
+
+.later {
+  background-color: yellow;
+}
+
+.done {
+  background-color: red;
+}
+
+.task {
+  background-color: white;
+  color: blue;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.task > img {
+  height: 1rem;
+  width: 1rem;
+}
+
+footer {
+  background-color: green;
+  color: white;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
